@@ -1,6 +1,6 @@
 ## OVERVIEW
 
-There is a TypeScript client to call DataForSeo API.
+There is a TypeScript client to call DataForSEO API.
 
 DataForSEO API uses REST technology for interchanging data between your application and our service. The data exchange is made through the widely used HTTP protocol, which allows applying our API to almost all programming languages.
 
@@ -20,7 +20,7 @@ Client contains 12 sections (aka API):
 
 API Contains 2 types of requests:
 1) Live (Simple HTTP request/response message)
-2) Task-Based (Where you need to send a 'Task' entity to execute, waiting until the 'Task' status is ready and getting the 'Task' result in a special endpoint. Usually it represents in 3 endpoints 'TaskPost', 'TaskReady' and 'TaskGet')
+2) Task-Based (Where you need to send a 'Task' entity to execute, waiting until the 'Task' status is ready and getting the 'Task' result in a special endpoint. It is represented in 3 endpoints 'TaskPost', 'TaskReady' and 'TaskGet')
 
 For more details - please follow [here](https://docs.dataforseo.com/v3/?bash)
 
